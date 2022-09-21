@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/inbox.css">
+    <link rel="stylesheet" href="css/normaliz.css">
+<link rel="stylesheet" href="bootstrap-5.2.0-dist/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap-5.2.0-dist/bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js">
+<script src="https://kit.fontawesome.com/8741f503b5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container" class= "d-flex flex-column container p-5 gap-3 mt-5 mb-5">
+        <div class=" p-4 message">
+             <div class="d-flex flex-column">
+                <div class="d-flex justify-content-between">
+                   <div class="d-flex  align-items-center"><img src="imgs/image-amyrobson.png" alt=""><h6>@Amyrobson<span class="ms-3 text-black-50">1week ago</span></h6></div>
+                    <button id="repily" class="repily" ><h6 class="">Repily <i class="fa-solid fa-reply"></i></h6></button>
+                </div>
+                <p >
+                    Impressive!Through it seems the drag feature could be improved. But overall it
+                    looks incredible. You`ve nailed the design and the responsiveness at various
+                    breakpoints works really well.
+                </p>
+             </div>
+        </div>
+        <div id="comment" class=" justify-content-between ms-4 me-4 p-4 message">
+            <img src="imgs/image-amyrobson.png"  alt="">
+            <input class="input" type="text">
+            <button class=" repily2">Repily<i class="fa-solid fa-reply"></i></button>
+       </div>
+        <div class=" p-4 message ">
+            <div class="d-flex flex-column">
+               <div class="d-flex justify-content-between">
+                  <div class="d-flex  align-items-center"><img src="imgs/image-juliusomo.webp" alt=""><h6>@juilisomo<span class="ms-3 text-black-50">1week ago</span></h6></div>
+                  <button  class="repily" ><h6 class="">Repily <i class="fa-solid fa-reply"></i></h6></button>
+               </div>
+               <p >
+                Woah.your projectlooks awesome! How long hace you been coding for ?i`m stil
+                new. but think i want to dive into React as well soon .Perhaps you can give me an 
+                insight on where i can learn React? Thanks!
+               </p>
+            </div>
+       </div>
+       <div class=" p-4 message ">
+        <div class="d-flex flex-column">
+           <div class="d-flex justify-content-between">
+              <div class="d-flex  align-items-center"><img src="imgs/image-maxblagun.png" alt=""><h6>@Maxblagun<span class="ms-3 text-black-50">1week ago</span></h6></div>
+              <button id="repily3" class="repily" ><h6>Repily <i class="fa-solid fa-reply"></i></h6></button>
+           </div>
+           <p>
+            if you `re still new. I`d recommend focusing one the fundamentals of HTML,css and JS before considering React. it`is very
+            tempting to jump ahead but laya soild foundation first.
+           </p>
+        </div>
+   </div>
+    </div>
+    <div class= "d-flex flex-column container p-5 gap-3 mt-5 ">
+        <div class="d-flex message p-4 justify-content-between align-items-center">
+            <img class="you" src="imgs/image-juliusomo.webp" alt="">
+            <input class="upload" type="text" name="" placeholder=" Add post..." id="upload">
+            <button id="send" class="send">Send</button>
+        </div>
+    </div>
+    <script src="inbox.js"></script>
+</body>
+</html>
